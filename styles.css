@@ -1,0 +1,52 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 42px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+  }
+
+  
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+
+  body {
+    background-color: #55a2cb;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #55a2cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  

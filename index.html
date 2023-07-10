@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter.</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="screenshot 2023-07-11 015202.ico" type="image/x-icon" >
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <img src="temperature-icon-13.jpg" alt="Temperature Icon" class="icon">
+      
+      <span class="title">
+      <p>TEMPERATURE
+         CONVERTER.</p>
+      </span>
+    </h1>
+    <div class="input-group">
+      <input type="number" id="celsiusInput" placeholder="Enter temperature in Celsius" onchange="convertTemperature('celsius')">
+      <button type="button" onclick="convertTemperature('celsius')">CONVERT °C</button>
+    </div>
+    <div class="input-group">
+      <input type="number" id="fahrenheitInput" placeholder="Enter temperature in Fahrenheit" onchange="convertTemperature('fahrenheit')">
+      <button type="button" onclick="convertTemperature('fahrenheit')">CONVERT °F</button>
+    </div>
+    <div class="input-group">
+      <input type="number" id="kelvinInput" placeholder="Enter temperature in Kelvin" onchange="convertTemperature('kelvin')">
+      <button type="button" onclick="convertTemperature('kelvin')">CONVERT K</button>
+    </div>
+    <div class="input-group">
+      <input type="number" id="rankineInput" placeholder="Enter temperature in Rankine" onchange="convertTemperature('rankine')">
+      <button type="button" onclick="convertTemperature('rankine')">CONVERT °R</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
